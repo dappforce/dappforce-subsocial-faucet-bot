@@ -153,16 +153,16 @@
   resolved "https://registry.yarnpkg.com/@polkadot/wasm-crypto/-/wasm-crypto-1.2.1.tgz#2189702447acd28d763886359576c87562241767"
   integrity sha512-nckIoZBV4nBZdeKwFwH5t7skS7L7GO5EFUl5B1F6uCjUfdNpDz3DtqbYQHcLdCZNmG4TDLg6w/1J+rkl2SiUZw==
 
-"@subsocial/types@^0.1.29":
-  version "0.1.29"
-  resolved "https://registry.yarnpkg.com/@subsocial/types/-/types-0.1.29.tgz#54142d7e7f57edb9360736982fb1a83dbfe96b17"
-  integrity sha512-LJ2GsHnAlIob/4xQRyMV5jKU6lUkIEgM+ltRRdarozZYit3o9VGWwR8m6Xa3f3lGzo/EP7P9txpRLaOt+l7o2g==
+"@subsocial/types@^0.1.30":
+  version "0.1.30"
+  resolved "https://registry.yarnpkg.com/@subsocial/types/-/types-0.1.30.tgz#ef8d0bc4ea0a796806bd6c5715fcd4ed8974c2ea"
+  integrity sha512-oyScFOM57e+BcMHtHCW65mBMn6vJNIpXNiAKeqjfAg74J/aa9aP5RHMTG9T3Xc1eq4k3uUDIuRRy6rGc+cSjlQ==
   dependencies:
     "@babel/runtime" "^7.8.4"
     "@subsocial/utils" ">=0.1.20"
     cids "^0.7.1"
 
-"@subsocial/utils@>=0.1.20", "@subsocial/utils@^0.1.21":
+"@subsocial/utils@>=0.1.20":
   version "0.1.21"
   resolved "https://registry.yarnpkg.com/@subsocial/utils/-/utils-0.1.21.tgz#bd4b77f0f1b167e343954748482f098d19afbee4"
   integrity sha512-uTvakYgmXD3ciNF3G1cCxSwLMVQ1Aoow/ept5+a5PdSwoDvv58x3da9aqfKc7MvQrJvQIPT+rGIq6YHJJamn+g==
@@ -176,12 +176,33 @@
     markdown-to-txt "^1.0.1"
     winston "^3.2.0"
 
+"@subsocial/utils@^0.1.23":
+  version "0.1.23"
+  resolved "https://registry.yarnpkg.com/@subsocial/utils/-/utils-0.1.23.tgz#f06fbc93e85875ac8ca6f70a07ff5c30a39633e5"
+  integrity sha512-UUi3e0CF+VMD6wXYM2GjjMANcL6X0kXkQyArYbzAxvJwOOfyowth42Z4ZE2hGXi2fbMbHz33Ml0KOWvAexQZ4A==
+  dependencies:
+    "@babel/runtime" "^7.8.4"
+    "@types/circular-json" "^0.4.0"
+    "@types/lodash.truncate" "^4.4.6"
+    "@types/winston" "^2.4.4"
+    bn.js "^5.1.1"
+    chalk "^3.0.0"
+    circular-json "^0.5.9"
+    dotenv "^8.0.0"
+    lodash.truncate "^4.4.2"
+    winston "^3.2.0"
+
 "@types/bn.js@^4.11.6":
   version "4.11.6"
   resolved "https://registry.yarnpkg.com/@types/bn.js/-/bn.js-4.11.6.tgz#c306c70d9358aaea33cd4eda092a742b9505967c"
   integrity sha512-pqr857jrp2kPuO9uRjZ3PwnJTjoQy+fcdxvBTvHm6dkmEL9q+hDD/2j/0ELOBPtPnS8LjCX0gI9nbl8lVkadpg==
   dependencies:
     "@types/node" "*"
+
+"@types/circular-json@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@types/circular-json/-/circular-json-0.4.0.tgz#7401f7e218cfe87ad4c43690da5658b9acaf51be"
+  integrity sha512-7+kYB7x5a7nFWW1YPBh3KxhwKfiaI4PbZ1RvzBU91LZy7lWJO822CI+pqzSre/DZ7KsCuMKdHnLHHFu8AyXbQg==
 
 "@types/color-name@^1.1.1":
   version "1.1.1"
@@ -473,6 +494,11 @@ cipher-base@^1.0.1, cipher-base@^1.0.3:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
+circular-json@^0.5.9:
+  version "0.5.9"
+  resolved "https://registry.yarnpkg.com/circular-json/-/circular-json-0.5.9.tgz#932763ae88f4f7dead7a0d09c8a51a4743a53b1d"
+  integrity sha512-4ivwqHpIFJZBuhN3g/pEcdbnGUywkBblloGbkglyloVjjR3uT6tieI89MVOfbP2tHX5sgb01FuLgAOzebNlJNQ==
+
 class-is@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/class-is/-/class-is-1.1.0.tgz#9d3c0fba0440d211d843cec3dedfa48055005825"
@@ -660,6 +686,11 @@ diagnostics@^1.1.1:
     colorspace "1.1.x"
     enabled "1.0.x"
     kuler "1.0.x"
+
+dotenv@^8.0.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
+  integrity sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
 
 dotenv@^8.1.0:
   version "8.1.0"
